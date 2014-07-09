@@ -1,3 +1,16 @@
-##Cool this is my hello world post
+这是我的第一个jekyll post.
 
-I want to see what's here
+最近被这个东西弄的心情很不好, 主要是装ruby搞的, 一会儿ruby版本不对, 一会儿又是rvm或者rbenv调不好, 好容易调好了之后, 装gem又不行, 刚开始是libssl-dev版本好像不对, 花了一晚上在笔记本上没调好, 第二天上班拿公司box发现删了包之后降级就能用了, 满心欢喜回家再弄本本发现还是有个包不对, aptitude降级之后好像openssl又有问题了, 真是烦死了. 不过好在最后发现, 如果用github page的话, 不需要Jekyll只要能push上去代码也能出网站, 这样就不用非得装jekyll了, 可是又发现我的emacs不能写中文, 还要装ibus插件, mac的emacs写了中文还都是乱码, 简直抓狂...
+
+Anyway, 这些都不是这个blog site的本意, 浪费那么多时间在挑theme, 改代码, 想blog名字, 不如静下心来好好把最近发生的事情好好记录一下来的有意义, 所以经过几番波折才有了这篇用sublime写的hello world post.
+
+最近上班的效率倒是蛮高的, 每天都在抓紧写代码(当然偶尔还是会小困一小下的), 可是回家之后总是不想看题, 可能是上次被Twitter的面试弄伤了吧, 现在有种感觉觉得自己代码代码写不好, Javascript又不会, 特别基础的知识又老是记不住需要随时Refresh, 像Hadoop mapreduce的那种概念没看过又不会, 气急败坏破罐破摔...
+
+希望这个blog能够推动自己一点吧, 一方面是为了刷github的活跃度 :P, 另外一方面能记录些有用的东西, 比如说做题的心得和学到的东西, 不要学了之后就忘.
+
+另外有一个小想法, 就是等到找到工作了以后, 要有几个东西要做
+1. 好好研究下Jekyll, 把Blog Page的样式调调好
+2. 把Resume Page改改好
+3. 那时候应该leetcode的150题都做好了, 写个script收集题目的最后github push时间生成题目的日期, 全部放在blog page里, 然后个别题再写点注释什么的
+
+暂时就这三个to-do, 但愿能找到一个满意的工作吧.
