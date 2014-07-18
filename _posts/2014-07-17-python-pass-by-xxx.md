@@ -14,10 +14,12 @@ def totalQueens(self, n):
 在参考答案的C代码里他ret用的是&ret, 所以每次都会自增(C这个变态的指针...), 于是直接抓过来想在python里用, 可是失败了.
 
 Google了一下, Python用的是 Pass by Assignment, 和其他的语言不一样, 当发生
+
 ```python
 a = 1
 a = 2
 ```
+
 的时候, 第一行是让a refer一个值是1的object, 第二行是让a refer一个值是2的object. 所以对于N-Queens题目肯定会不行, ret += 1是让 ret refer一个值比原来的object大1的新object, 但是原来的ret还是refer老的object, 自然不会自增.
 
 网上查的办法是refer mutable, 例如 list, dictionary这些, 这也是为什么之前都没有暴露出这样的问题, 以前写代码的时候, 要不然是用了global varible, 要不然就是用了dict或者list, 恰好躲过了这个...
